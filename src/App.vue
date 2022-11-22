@@ -1,18 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="header">
+    <AppHeader></AppHeader>
+    <div id="app">Just a bit of a hack to get the right layout forum.</div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AppHeader from "./components/AppHeader.vue"
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
+    AppHeader,
+  },
 }
 </script>
 
